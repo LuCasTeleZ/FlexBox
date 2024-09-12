@@ -1,0 +1,38 @@
+.pai-dos-itens{
+    display: flex;
+    gap: 20px;
+}
+
+.pai-dos-itens .filho{
+    display: flex;
+    flex-direction: column;
+    background-color: peru;
+    padding: 20px;
+    border: black solid;
+    align-items: center;
+}
+
+.pai-dos-itens .filho img{
+    width: 500px;
+    border: black solid;
+}
+
+.pai-dos-itens .filho h2,p{
+    color: antiquewhite;
+}
+
+.pai-dos-itens .filho button{
+    background-color: burlywood;
+    border: 3px black solid;
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.25) 4px 4px 4px;
+}
+
+.pai-dos-itens .filho :hover{
+    background-color: bisque;
+    color: slategrey;
+}
+
+
+    
+    

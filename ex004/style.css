@@ -1,0 +1,8 @@
+.membro{
+    display: flex;
+    flex-direction: row;
+}
+.Card img{
+    width: 750px;
+}
+
