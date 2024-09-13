@@ -1,8 +1,26 @@
-.membro{
-    display: flex;
+.equipe{
+    display:flex ;
     flex-direction: row;
+    gap: 20px;
+    text-align: center;
 }
-.Card img{
-    width: 750px;
+
+.equipe .colaborador {
+    width: 150;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: navajowhite;
+    border: black solid;
 }
+
+
+
+.equipe .colaborador img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    object-fit: contain;
+}
+
 
